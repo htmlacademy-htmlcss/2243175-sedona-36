@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Филатчев](https://up.htmlacademy.ru/htmlcss/36/user/2243175).
-* Наставник: `Ольга Юзич https://htmlacademy.ru/profile/id350391`.
+* Наставник: `Иван Жарков https://htmlacademy.ru/profile/id191422`.
 
 ---
 
