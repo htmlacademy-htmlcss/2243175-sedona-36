@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
-    <link rel="stylesheet" href="styles/styles.css"
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -47,7 +47,6 @@
     </header>
     <main class="main-inner">
       <header class="inner-header">
-        <img src="images/sedonasmoke.jpg" width="1200" height="auto">
        <h1 class="inner-header-title">Гостиницы Седоны</h1>
        <ul class="breadcrumbs">
          <li class="breadcrumbs-item">
@@ -107,13 +106,13 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button-3" type="submit">Применить</button>
-          <button class="button-1" type="submit">Сбросить</button>
+          <button class="button button-submit" type="submit">Применить</button>
+          <button class="button button-reset" type="reset">Сбросить</button>
         </form>
        </section>
       </header>
     <div class="sorting-container">
-      <h2 class="product-card-title">Найдено гостиниц: 38</h2>
+      <p class="product-card-title">Найдено гостиниц: 38</p>
       <select class="select-control" aria-label="Сортировка">
         <option value="popular">Сначала популярное</option>
         <option value="cheap">Сначала дешёвое</option>
@@ -209,10 +208,10 @@
        <p class="product-card-rating">Рейтинг: 5</p>
         </div>
       </li>
-    </ul>
+      </ul>
      <ul class="pagination">
        <li class="pagination-item">
-         <a class="pagination-link-pagination-current">1</a>
+         <a class="pagination-link pagination-current">1</a>
        </li>
        <li class="pagination-item">
          <a class="pagination-link" href="#">2</a>
@@ -227,17 +226,20 @@
          <a class="pagination-link" href="#">5</a>
        </li>
       </ul>
-    </main>
-      <section>
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <h3 class="page-footer-title">Только полезная информация и никакого спама, честное бойскаутское!</h3>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post"></form>
+      <section class="newsletter">
+        <p class="newsletter-title">Подпишитесь на рассылку</p>
+        <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
          <label for="newsletter-email">Email</label>
          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
          <button class="button newsletter-button" type="submit">
           <span class="visually-hidden">Отправить</span>
          </button>
+          <img class="footer-title" src="images/Subscribe.jpg" alt="Панарама расплывчатых гор">
+        </form>
       </section>
+     </main>
+
     </body>
       <footer class="page-footer">
         <section class="footer-social">
